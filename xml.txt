@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile>
+  <diagram name="Diagrama de Objetos">
+    <mxGraphModel dx="958" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Cliente -->
+        <mxCell id="2" value="Cliente1: Usuario&#xa;Nombre: Juan Pérez&#xa;Email: juan@example.com" style="shape=rectangle;fillColor=#D9EAD3;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Pedido -->
+        <mxCell id="3" value="Pedido1: Pedido&#xa;ID: 001&#xa;Fecha: 20/03/2025" style="shape=rectangle;fillColor=#F4CCCC;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="200" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Producto -->
+        <mxCell id="4" value="Producto1: Producto&#xa;Nombre: Tomates&#xa;Precio: $5,000 COP" style="shape=rectangle;fillColor=#CFE2F3;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Agricultor -->
+        <mxCell id="5" value="Agricultor1: Usuario&#xa;Nombre: Pedro López&#xa;Email: pedro@example.com" style="shape=rectangle;fillColor=#D9EAD3;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Pago -->
+        <mxCell id="6" value="Pago1: Pago&#xa;Método: Nequi&#xa;Monto: $5,000 COP" style="shape=rectangle;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Conexiones -->
+        <mxCell id="7" edge="1" source="2" target="3" style="edgeStyle
